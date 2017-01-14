@@ -19,3 +19,9 @@ function printColor(color){
 
 colors.forEach(printColor);
 
+var count = 0;
+
+while(count < colors.length){
+	console.log(colors[count]);
+	count++;
+}
