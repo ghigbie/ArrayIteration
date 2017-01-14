@@ -33,3 +33,11 @@ numbers.forEach(function(item){
 		console.log(item);
 	}
 });
+
+console.log("/////////////");
+
+for(var b = 0; b < numbers.length; b++){
+	if(numbers[b] % 3 ===0 ){
+	console.log(numbers[b]);
+	}
+}
