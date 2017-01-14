@@ -14,7 +14,7 @@ for(var a = 0; a < colors.length; a++){
 function printColor(color){
 	console.log("///////////");
 	console.log(color);
-	console.lgo("///////////");
+	console.log("///////////");
 }
 
 colors.forEach(printColor);
