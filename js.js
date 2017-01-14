@@ -25,3 +25,11 @@ while(count < colors.length){
 	console.log(colors[count]);
 	count++;
 }
+
+var numbers = [1,2,3,4,5,6,7,8,9,10];
+
+numbers.forEach(function(item){
+	if(item%3 === 0){
+		console.log(item);
+	}
+});
